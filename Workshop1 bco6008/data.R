@@ -25,3 +25,4 @@ abline(lmtemp)
 lmcost=lm(cost~id , data= items)
 plot(items, pch= 16 , col= "blue")
 albine(lmcost)
+ ##testing the git 

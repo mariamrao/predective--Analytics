@@ -51,6 +51,7 @@ astronauts_df <- astronauts %>%
   na.omit()
 ```
 ## building a model 
- 
-https://juliasilge.com/blog/astronaut-missions-bagging/ 
-link 
+```{r}
+
+```
+

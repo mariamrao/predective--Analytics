@@ -1,5 +1,3 @@
-
-
 newdata=iris
 View(newdata)
 str(newdata)
@@ -25,7 +23,7 @@ summary(newdata1[,c(1,2,3,4)])
 
 normalize<-function(x){
   
-  +return((x - min(x))/(max(x) - min(x))) }
+  + return((x - min(x))/(max(x) - min(x))) }
 
 normalize(c(1,2,3,4,5))
 
@@ -36,3 +34,4 @@ newdata2<-as.data.frame(lapply(newdata1[, c(1,2,3,4)], normalize))
 str(newdata2)
 
 summary(newdata2)
+
